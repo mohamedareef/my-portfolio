@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="white-theme">
+    <section class="hero">
+        <header>
+            <nav>
+                <a href="#" class="logo"><span>P</span>ortfolio</a>
+                <div class=" nav-links">
+                    <a href="file:///C:/Users/Mohammed/Desktop/portfolio2/index.html">Home</a>
+                    <a href="abut.html">About</a>
+                    <a href="project.html">project</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <span>
+                    <i class="fa-solid fa-sun btn-mode"></i>
+
+
+                </span>
+            </nav>
+        </header>
+
+        <div class=" container">
+            <div class="div-text">
+                <h4>hello ,my name is</h4>
+                <h1 class="text">Mohamed Aref</h1>
+                <span >Flutter Developer</span>
+                <p>I'm junior Flutter Developer , i love programing</p>
+                <a href="cv.pdf" class="btn"> Download CV</a>
+                  <center>
+                <div class="sphere-container">
+        <div class="sphere">
+            <span class="portfolio-text">Portfolio</span>
+        </div>
+    </div>
+            </center>
+            
+            </div>
+          
+            <div class="div-img">
+                <img src="22+.png" alt="my photo">
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/share/196hTyLs19/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/mohamedareef" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohamed-aref-75216b289" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="signatsur">
+                    <img src="signature.png" alt="">
+                     
+                </div>
+
+            </div>
+           
+        </div>
+
+        
+    </section>
+    <script>
+        var btnMode = document.querySelector('.btn-mode');
+        btnMode.onclick = function () {
+            document.body.classList.toggle("white-theme");
+            if (btnMode.classList.contains("fa-sun")) {
+                btnMode.classList.remove("fa-sun");
+                btnMode.classList.add("fa-moon");
+            } else {
+                btnMode.classList.remove("fa-moon");
+                btnMode.classList.add("fa-sun");
+            }
+        }
+        
+    </script>
+    
+
+</body>
+
+</html>
